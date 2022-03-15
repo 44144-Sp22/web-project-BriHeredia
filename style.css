@@ -6,7 +6,42 @@ header, nav, main, footer {
   box-sizing: border-box;
 }
 
+header {
+  background-color: #dfdfdf;
+}
+
+body {
+  background-color: #adadad;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#wrapper {
+  margin: auto;
+  width: 85%;
+  background-color: #f3f3f3;
+}
+
 nav {
-  text-align: center;
+  text-align: right;
   font-weight: bold;
+}
+
+h2 {}
+
+main {}
+
+main ul {
+  list-style-type: none;
+}
+
+main li {
+  display: inline-block;
+  width: 400px;
+  margin: 10px;
+}
+
+footer {
+  font-size: 70%;
+  text-align: center;
+  padding: 15px;
 }
